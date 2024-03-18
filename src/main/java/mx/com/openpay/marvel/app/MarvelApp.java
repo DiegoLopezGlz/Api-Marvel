@@ -1,6 +1,6 @@
-package mx.com.openpay.marvel.services;
+package mx.com.openpay.marvel.app;
 
-public interface MarvelService {
+public interface MarvelApp {
 
     /**
      * Método GET para realizar el consumo de los personajes de MARVEL
@@ -9,4 +9,5 @@ public interface MarvelService {
      * @return la lista de personajes en formato JSON
      */
     public String getCharacters();
+    
 }
